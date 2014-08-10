@@ -1,0 +1,939 @@
+# depslib dependency file v1.0
+1399071253 source:/home/han/Documents/code_blocks/spam_msg/AddressMan.cpp
+	"AddressMan.h"
+
+1399068143 /home/han/Documents/code_blocks/spam_msg/AddressMan.h
+	"include.h"
+
+1399052947 /home/han/Documents/code_blocks/spam_msg/include.h
+	<vector>
+	<iomanip>
+	<fstream>
+	<iostream>
+	<string>
+	<memory.h>
+
+1399071588 source:/home/han/Documents/code_blocks/spam_msg/DataGenerator.cpp
+	"DataGenerator.h"
+	"DictionaryMan.h"
+	"DataParser.h"
+	"AddressMan.h"
+	"Singleton.h"
+
+1399056375 /home/han/Documents/code_blocks/spam_msg/DataGenerator.h
+	"include.h"
+	"json/json.h"
+
+1398377017 /home/han/Documents/code_blocks/spam_msg/DirectoryMan.h
+	"include.h"
+
+1398370558 /home/han/Documents/code_blocks/spam_msg/Singleton.h
+	<stdlib.h>
+	<assert.h>
+	<stdexcept>
+
+1399066452 source:/home/han/Documents/code_blocks/spam_msg/DataLearner.cpp
+	"DataLearner.h"
+	"AddressMan.h"
+	"DictionaryMan.h"
+	"Singleton.h"
+	"include.h"
+
+1399065048 /home/han/Documents/code_blocks/spam_msg/DataLearner.h
+
+1399065196 source:/home/han/Documents/code_blocks/spam_msg/DataPredictor.cpp
+	"DataPredictor.h"
+	"DataLearner.h"
+	"Singleton.h"
+	"include.h"
+
+1398440501 /home/han/Documents/code_blocks/spam_msg/DataPredictor.h
+
+1398373908 source:/home/han/Documents/code_blocks/spam_msg/DirectoryMan.cpp
+	"DirectoryMan.h"
+
+1399068475 source:/home/han/Documents/code_blocks/spam_msg/main.cpp
+	"include.h"
+	"DictionaryMan.h"
+	"DataGenerator.h"
+	"DataLearner.h"
+	"Singleton.h"
+	"DataPredictor.h"
+	"jieba/MixSegment.hpp"
+
+1398434109 /home/han/Documents/code_blocks/spam_msg/jieba/MixSegment.hpp
+	<cassert>
+	"MPSegment.hpp"
+	"HMMSegment.hpp"
+	"Limonp/str_functs.hpp"
+
+1398434109 /home/han/Documents/code_blocks/spam_msg/jieba/MPSegment.hpp
+	<algorithm>
+	<set>
+	<cassert>
+	"Limonp/logger.hpp"
+	"Trie.hpp"
+	"TrieManager.hpp"
+	"ISegment.hpp"
+	"SegmentBase.hpp"
+
+1398434110 /home/han/Documents/code_blocks/spam_msg/jieba/Limonp/logger.hpp
+	<vector>
+	<iostream>
+	<fstream>
+	<string>
+	<stdio.h>
+	<stdarg.h>
+	<cassert>
+	"io_functs.hpp"
+	"str_functs.hpp"
+
+1398434110 /home/han/Documents/code_blocks/spam_msg/jieba/Limonp/io_functs.hpp
+	<fstream>
+	<iostream>
+	<stdlib.h>
+
+1398434110 /home/han/Documents/code_blocks/spam_msg/jieba/Limonp/str_functs.hpp
+	<fstream>
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<cctype>
+	<map>
+	<stdint.h>
+	<stdio.h>
+	<stdarg.h>
+	<memory.h>
+	<functional>
+	<locale>
+	<sstream>
+	<sys/types.h>
+	<iterator>
+	<algorithm>
+	"std_outbound.hpp"
+	"map_functs.hpp"
+
+1398434110 /home/han/Documents/code_blocks/spam_msg/jieba/Limonp/std_outbound.hpp
+	"map_functs.hpp"
+	<map>
+	<set>
+
+1398434110 /home/han/Documents/code_blocks/spam_msg/jieba/Limonp/map_functs.hpp
+	<map>
+	<set>
+	<iostream>
+	<sstream>
+	<unordered_map>
+
+1398434109 /home/han/Documents/code_blocks/spam_msg/jieba/Trie.hpp
+	<iostream>
+	<fstream>
+	<map>
+	<cstring>
+	<stdint.h>
+	<cmath>
+	<limits>
+	"Limonp/str_functs.hpp"
+	"Limonp/logger.hpp"
+	"TransCode.hpp"
+
+1398434109 /home/han/Documents/code_blocks/spam_msg/jieba/TransCode.hpp
+	"Limonp/str_functs.hpp"
+
+1398434109 /home/han/Documents/code_blocks/spam_msg/jieba/TrieManager.hpp
+	"Trie.hpp"
+	"Limonp/md5.hpp"
+	"Limonp/logger.hpp"
+	<unordered_map>
+
+1398434110 /home/han/Documents/code_blocks/spam_msg/jieba/Limonp/md5.hpp
+	<cstdio>
+	<cstring>
+	<iostream>
+
+1398434109 /home/han/Documents/code_blocks/spam_msg/jieba/ISegment.hpp
+
+1398434109 /home/han/Documents/code_blocks/spam_msg/jieba/SegmentBase.hpp
+	"TransCode.hpp"
+	"Limonp/logger.hpp"
+	"Limonp/InitOnOff.hpp"
+	"ISegment.hpp"
+	<cassert>
+
+1398434110 /home/han/Documents/code_blocks/spam_msg/jieba/Limonp/InitOnOff.hpp
+
+1398434109 /home/han/Documents/code_blocks/spam_msg/jieba/HMMSegment.hpp
+	<iostream>
+	<fstream>
+	<memory.h>
+	<cassert>
+	"Limonp/str_functs.hpp"
+	"Limonp/logger.hpp"
+	"TransCode.hpp"
+	"ISegment.hpp"
+	"SegmentBase.hpp"
+	"Trie.hpp"
+
+1268379095 /home/han/Documents/code_blocks/spam_msg/json/json.h
+	"autolink.h"
+	"value.h"
+	"reader.h"
+	"writer.h"
+	"features.h"
+
+1268379095 /home/han/Documents/code_blocks/spam_msg/json/autolink.h
+	"config.h"
+	<cpptl/cpptl_autolink.h>
+	"autolink.h"
+
+1268379095 /home/han/Documents/code_blocks/spam_msg/json/config.h
+	<cpptl/config.h>
+
+1268379095 /home/han/Documents/code_blocks/spam_msg/json/value.h
+	"forwards.h"
+	<string>
+	<vector>
+	<map>
+	<cpptl/smallmap.h>
+	<cpptl/forwards.h>
+
+1268379095 /home/han/Documents/code_blocks/spam_msg/json/forwards.h
+	"config.h"
+
+1268379095 /home/han/Documents/code_blocks/spam_msg/json/reader.h
+	"features.h"
+	"value.h"
+	<deque>
+	<stack>
+	<string>
+	<iostream>
+
+1268379095 /home/han/Documents/code_blocks/spam_msg/json/features.h
+	"forwards.h"
+
+1268379095 /home/han/Documents/code_blocks/spam_msg/json/writer.h
+	"value.h"
+	<vector>
+	<string>
+	<iostream>
+
+1399071569 /home/han/Documents/code_blocks/spam_msg/DictionaryMan.h
+	"include.h"
+
+1399058617 /home/han/Documents/code_blocks/spam_msg/DataParser.h
+	"include.h"
+	"jieba/MixSegment.hpp"
+
+1399062449 source:/home/han/Documents/code_blocks/spam_msg/DataParser.cpp
+	"DataParser.h"
+	"DictionaryMan.h"
+
+1399071609 source:/home/han/Documents/code_blocks/spam_msg/DictionaryMan.cpp
+	"DictionaryMan.h"
+
+1399071253 source:/home/han/Desktop/machine_learning/spam_msg/AddressMan.cpp
+	"AddressMan.h"
+
+1399068143 /home/han/Desktop/machine_learning/spam_msg/AddressMan.h
+	"include.h"
+
+1399052947 /home/han/Desktop/machine_learning/spam_msg/include.h
+	<vector>
+	<iomanip>
+	<fstream>
+	<iostream>
+	<string>
+	<memory.h>
+
+1399462246 source:/home/han/Desktop/machine_learning/spam_msg/DataGenerator.cpp
+	"DataGenerator.h"
+	"DictionaryMan.h"
+	"DataParser.h"
+	"AddressMan.h"
+	"Singleton.h"
+
+1399132153 /home/han/Desktop/machine_learning/spam_msg/DataGenerator.h
+	"include.h"
+	"json/json.h"
+
+1268379095 /home/han/Desktop/machine_learning/spam_msg/json/json.h
+	"autolink.h"
+	"value.h"
+	"reader.h"
+	"writer.h"
+	"features.h"
+
+1268379095 /home/han/Desktop/machine_learning/spam_msg/json/autolink.h
+	"config.h"
+	<cpptl/cpptl_autolink.h>
+	"autolink.h"
+
+1268379095 /home/han/Desktop/machine_learning/spam_msg/json/config.h
+	<cpptl/config.h>
+
+1268379095 /home/han/Desktop/machine_learning/spam_msg/json/value.h
+	"forwards.h"
+	<string>
+	<vector>
+	<map>
+	<cpptl/smallmap.h>
+	<cpptl/forwards.h>
+
+1268379095 /home/han/Desktop/machine_learning/spam_msg/json/forwards.h
+	"config.h"
+
+1268379095 /home/han/Desktop/machine_learning/spam_msg/json/reader.h
+	"features.h"
+	"value.h"
+	<deque>
+	<stack>
+	<string>
+	<iostream>
+
+1268379095 /home/han/Desktop/machine_learning/spam_msg/json/features.h
+	"forwards.h"
+
+1268379095 /home/han/Desktop/machine_learning/spam_msg/json/writer.h
+	"value.h"
+	<vector>
+	<string>
+	<iostream>
+
+1399464661 /home/han/Desktop/machine_learning/spam_msg/DictionaryMan.h
+	"include.h"
+
+1399058617 /home/han/Desktop/machine_learning/spam_msg/DataParser.h
+	"include.h"
+	"jieba/MixSegment.hpp"
+
+1398434109 /home/han/Desktop/machine_learning/spam_msg/jieba/MixSegment.hpp
+	<cassert>
+	"MPSegment.hpp"
+	"HMMSegment.hpp"
+	"Limonp/str_functs.hpp"
+
+1398434109 /home/han/Desktop/machine_learning/spam_msg/jieba/MPSegment.hpp
+	<algorithm>
+	<set>
+	<cassert>
+	"Limonp/logger.hpp"
+	"Trie.hpp"
+	"TrieManager.hpp"
+	"ISegment.hpp"
+	"SegmentBase.hpp"
+
+1398434110 /home/han/Desktop/machine_learning/spam_msg/jieba/Limonp/logger.hpp
+	<vector>
+	<iostream>
+	<fstream>
+	<string>
+	<stdio.h>
+	<stdarg.h>
+	<cassert>
+	"io_functs.hpp"
+	"str_functs.hpp"
+
+1398434110 /home/han/Desktop/machine_learning/spam_msg/jieba/Limonp/io_functs.hpp
+	<fstream>
+	<iostream>
+	<stdlib.h>
+
+1398434110 /home/han/Desktop/machine_learning/spam_msg/jieba/Limonp/str_functs.hpp
+	<fstream>
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<cctype>
+	<map>
+	<stdint.h>
+	<stdio.h>
+	<stdarg.h>
+	<memory.h>
+	<functional>
+	<locale>
+	<sstream>
+	<sys/types.h>
+	<iterator>
+	<algorithm>
+	"std_outbound.hpp"
+	"map_functs.hpp"
+
+1398434110 /home/han/Desktop/machine_learning/spam_msg/jieba/Limonp/std_outbound.hpp
+	"map_functs.hpp"
+	<map>
+	<set>
+
+1398434110 /home/han/Desktop/machine_learning/spam_msg/jieba/Limonp/map_functs.hpp
+	<map>
+	<set>
+	<iostream>
+	<sstream>
+	<unordered_map>
+
+1398434109 /home/han/Desktop/machine_learning/spam_msg/jieba/Trie.hpp
+	<iostream>
+	<fstream>
+	<map>
+	<cstring>
+	<stdint.h>
+	<cmath>
+	<limits>
+	"Limonp/str_functs.hpp"
+	"Limonp/logger.hpp"
+	"TransCode.hpp"
+
+1398434109 /home/han/Desktop/machine_learning/spam_msg/jieba/TransCode.hpp
+	"Limonp/str_functs.hpp"
+
+1398434109 /home/han/Desktop/machine_learning/spam_msg/jieba/TrieManager.hpp
+	"Trie.hpp"
+	"Limonp/md5.hpp"
+	"Limonp/logger.hpp"
+	<unordered_map>
+
+1398434110 /home/han/Desktop/machine_learning/spam_msg/jieba/Limonp/md5.hpp
+	<cstdio>
+	<cstring>
+	<iostream>
+
+1398434109 /home/han/Desktop/machine_learning/spam_msg/jieba/ISegment.hpp
+
+1398434109 /home/han/Desktop/machine_learning/spam_msg/jieba/SegmentBase.hpp
+	"TransCode.hpp"
+	"Limonp/logger.hpp"
+	"Limonp/InitOnOff.hpp"
+	"ISegment.hpp"
+	<cassert>
+
+1398434110 /home/han/Desktop/machine_learning/spam_msg/jieba/Limonp/InitOnOff.hpp
+
+1398434109 /home/han/Desktop/machine_learning/spam_msg/jieba/HMMSegment.hpp
+	<iostream>
+	<fstream>
+	<memory.h>
+	<cassert>
+	"Limonp/str_functs.hpp"
+	"Limonp/logger.hpp"
+	"TransCode.hpp"
+	"ISegment.hpp"
+	"SegmentBase.hpp"
+	"Trie.hpp"
+
+1398370558 /home/han/Desktop/machine_learning/spam_msg/Singleton.h
+	<stdlib.h>
+	<assert.h>
+	<stdexcept>
+
+1399135640 source:/home/han/Desktop/machine_learning/spam_msg/DataLearner.cpp
+	"DataLearner.h"
+	"AddressMan.h"
+	"DictionaryMan.h"
+	"Singleton.h"
+	"include.h"
+
+1399065048 /home/han/Desktop/machine_learning/spam_msg/DataLearner.h
+
+1399062449 source:/home/han/Desktop/machine_learning/spam_msg/DataParser.cpp
+	"DataParser.h"
+	"DictionaryMan.h"
+
+1399463125 source:/home/han/Desktop/machine_learning/spam_msg/DataPredictor.cpp
+	"DataPredictor.h"
+	"DataLearner.h"
+	"Singleton.h"
+	"include.h"
+
+1399130340 /home/han/Desktop/machine_learning/spam_msg/DataPredictor.h
+
+1399462248 source:/home/han/Desktop/machine_learning/spam_msg/DictionaryMan.cpp
+	"DictionaryMan.h"
+
+1399135589 source:/home/han/Desktop/machine_learning/spam_msg/main.cpp
+	"include.h"
+	"DictionaryMan.h"
+	"DataGenerator.h"
+	"DataLearner.h"
+	"Singleton.h"
+	"DataPredictor.h"
+	"jieba/MixSegment.hpp"
+
+1399472495 source:/home/han/Desktop/machine_learning/spam_msg2/AddressMan.cpp
+	"AddressMan.h"
+
+1399468676 /home/han/Desktop/machine_learning/spam_msg2/AddressMan.h
+	"include.h"
+	"FeatureMan.h"
+
+1399546110 /home/han/Desktop/machine_learning/spam_msg2/include.h
+	<vector>
+	<iomanip>
+	<fstream>
+	<iostream>
+	<string>
+	<memory.h>
+	<math.h>
+	<algorithm>
+	<ctime>
+
+1399473018 source:/home/han/Desktop/machine_learning/spam_msg2/DataLearner.cpp
+	"DataLearner.h"
+	"AddressMan.h"
+	"DictionaryMan.h"
+	"Singleton.h"
+	"include.h"
+
+1399468852 /home/han/Desktop/machine_learning/spam_msg2/DataLearner.h
+
+1399468722 /home/han/Desktop/machine_learning/spam_msg2/DictionaryMan.h
+	"include.h"
+	"FeatureMan.h"
+
+1398370558 /home/han/Desktop/machine_learning/spam_msg2/Singleton.h
+	<stdlib.h>
+	<assert.h>
+	<stdexcept>
+
+1399469700 source:/home/han/Desktop/machine_learning/spam_msg2/DataParser.cpp
+	"DataParser.h"
+	"DictionaryMan.h"
+
+1399058617 /home/han/Desktop/machine_learning/spam_msg2/DataParser.h
+	"include.h"
+	"jieba/MixSegment.hpp"
+
+1398434109 /home/han/Desktop/machine_learning/spam_msg2/jieba/MixSegment.hpp
+	<cassert>
+	"MPSegment.hpp"
+	"HMMSegment.hpp"
+	"Limonp/str_functs.hpp"
+
+1398434109 /home/han/Desktop/machine_learning/spam_msg2/jieba/MPSegment.hpp
+	<algorithm>
+	<set>
+	<cassert>
+	"Limonp/logger.hpp"
+	"Trie.hpp"
+	"TrieManager.hpp"
+	"ISegment.hpp"
+	"SegmentBase.hpp"
+
+1398434110 /home/han/Desktop/machine_learning/spam_msg2/jieba/Limonp/logger.hpp
+	<vector>
+	<iostream>
+	<fstream>
+	<string>
+	<stdio.h>
+	<stdarg.h>
+	<cassert>
+	"io_functs.hpp"
+	"str_functs.hpp"
+
+1398434110 /home/han/Desktop/machine_learning/spam_msg2/jieba/Limonp/io_functs.hpp
+	<fstream>
+	<iostream>
+	<stdlib.h>
+
+1398434110 /home/han/Desktop/machine_learning/spam_msg2/jieba/Limonp/str_functs.hpp
+	<fstream>
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<cctype>
+	<map>
+	<stdint.h>
+	<stdio.h>
+	<stdarg.h>
+	<memory.h>
+	<functional>
+	<locale>
+	<sstream>
+	<sys/types.h>
+	<iterator>
+	<algorithm>
+	"std_outbound.hpp"
+	"map_functs.hpp"
+
+1398434110 /home/han/Desktop/machine_learning/spam_msg2/jieba/Limonp/std_outbound.hpp
+	"map_functs.hpp"
+	<map>
+	<set>
+
+1398434110 /home/han/Desktop/machine_learning/spam_msg2/jieba/Limonp/map_functs.hpp
+	<map>
+	<set>
+	<iostream>
+	<sstream>
+	<unordered_map>
+
+1398434109 /home/han/Desktop/machine_learning/spam_msg2/jieba/Trie.hpp
+	<iostream>
+	<fstream>
+	<map>
+	<cstring>
+	<stdint.h>
+	<cmath>
+	<limits>
+	"Limonp/str_functs.hpp"
+	"Limonp/logger.hpp"
+	"TransCode.hpp"
+
+1398434109 /home/han/Desktop/machine_learning/spam_msg2/jieba/TransCode.hpp
+	"Limonp/str_functs.hpp"
+
+1398434109 /home/han/Desktop/machine_learning/spam_msg2/jieba/TrieManager.hpp
+	"Trie.hpp"
+	"Limonp/md5.hpp"
+	"Limonp/logger.hpp"
+	<unordered_map>
+
+1398434110 /home/han/Desktop/machine_learning/spam_msg2/jieba/Limonp/md5.hpp
+	<cstdio>
+	<cstring>
+	<iostream>
+
+1398434109 /home/han/Desktop/machine_learning/spam_msg2/jieba/ISegment.hpp
+
+1398434109 /home/han/Desktop/machine_learning/spam_msg2/jieba/SegmentBase.hpp
+	"TransCode.hpp"
+	"Limonp/logger.hpp"
+	"Limonp/InitOnOff.hpp"
+	"ISegment.hpp"
+	<cassert>
+
+1398434110 /home/han/Desktop/machine_learning/spam_msg2/jieba/Limonp/InitOnOff.hpp
+
+1398434109 /home/han/Desktop/machine_learning/spam_msg2/jieba/HMMSegment.hpp
+	<iostream>
+	<fstream>
+	<memory.h>
+	<cassert>
+	"Limonp/str_functs.hpp"
+	"Limonp/logger.hpp"
+	"TransCode.hpp"
+	"ISegment.hpp"
+	"SegmentBase.hpp"
+	"Trie.hpp"
+
+1399463125 source:/home/han/Desktop/machine_learning/spam_msg2/DataPredictor.cpp
+	"DataPredictor.h"
+	"DataLearner.h"
+	"Singleton.h"
+	"include.h"
+
+1399130340 /home/han/Desktop/machine_learning/spam_msg2/DataPredictor.h
+
+1399472497 source:/home/han/Desktop/machine_learning/spam_msg2/DictionaryMan.cpp
+	"DictionaryMan.h"
+
+1399546654 source:/home/han/Desktop/machine_learning/spam_msg2/main.cpp
+	"include.h"
+	"DictionaryMan.h"
+	"DataGenerator.h"
+	"DataLearner.h"
+	"Singleton.h"
+	"DataPredictor.h"
+	"jieba/MixSegment.hpp"
+
+1399469124 /home/han/Desktop/machine_learning/spam_msg2/DataGenerator.h
+	"include.h"
+	"json/json.h"
+
+1268379095 /home/han/Desktop/machine_learning/spam_msg2/json/json.h
+	"autolink.h"
+	"value.h"
+	"reader.h"
+	"writer.h"
+	"features.h"
+
+1268379095 /home/han/Desktop/machine_learning/spam_msg2/json/autolink.h
+	"config.h"
+	<cpptl/cpptl_autolink.h>
+	"autolink.h"
+
+1268379095 /home/han/Desktop/machine_learning/spam_msg2/json/config.h
+	<cpptl/config.h>
+
+1268379095 /home/han/Desktop/machine_learning/spam_msg2/json/value.h
+	"forwards.h"
+	<string>
+	<vector>
+	<map>
+	<cpptl/smallmap.h>
+	<cpptl/forwards.h>
+
+1268379095 /home/han/Desktop/machine_learning/spam_msg2/json/forwards.h
+	"config.h"
+
+1268379095 /home/han/Desktop/machine_learning/spam_msg2/json/reader.h
+	"features.h"
+	"value.h"
+	<deque>
+	<stack>
+	<string>
+	<iostream>
+
+1268379095 /home/han/Desktop/machine_learning/spam_msg2/json/features.h
+	"forwards.h"
+
+1268379095 /home/han/Desktop/machine_learning/spam_msg2/json/writer.h
+	"value.h"
+	<vector>
+	<string>
+	<iostream>
+
+1399477128 /home/han/Desktop/machine_learning/spam_msg2/FeatureMan.h
+	"include.h"
+
+1399547162 source:/home/han/Desktop/machine_learning/spam_msg2/DataGenerator.cpp
+	"DataGenerator.h"
+	"DictionaryMan.h"
+	"DataParser.h"
+	"AddressMan.h"
+	"Singleton.h"
+
+1399546958 source:/home/han/Desktop/machine_learning/spam_msg2/FeatureMan.cpp
+	"FeatureMan.h"
+	"FeatureMan.h"
+
+1399472494 source:/home/han/Documents/code_blocks/spam_msg2/AddressMan.cpp
+	"AddressMan.h"
+
+1399468676 /home/han/Documents/code_blocks/spam_msg2/AddressMan.h
+	"include.h"
+	"FeatureMan.h"
+
+1399546110 /home/han/Documents/code_blocks/spam_msg2/include.h
+	<vector>
+	<iomanip>
+	<fstream>
+	<iostream>
+	<string>
+	<memory.h>
+	<math.h>
+	<algorithm>
+	<ctime>
+
+1399563960 /home/han/Documents/code_blocks/spam_msg2/FeatureMan.h
+	"include.h"
+
+1399547162 source:/home/han/Documents/code_blocks/spam_msg2/DataGenerator.cpp
+	"DataGenerator.h"
+	"DictionaryMan.h"
+	"DataParser.h"
+	"AddressMan.h"
+	"Singleton.h"
+
+1399469124 /home/han/Documents/code_blocks/spam_msg2/DataGenerator.h
+	"include.h"
+	"json/json.h"
+
+1268379094 /home/han/Documents/code_blocks/spam_msg2/json/json.h
+	"autolink.h"
+	"value.h"
+	"reader.h"
+	"writer.h"
+	"features.h"
+
+1268379094 /home/han/Documents/code_blocks/spam_msg2/json/autolink.h
+	"config.h"
+	<cpptl/cpptl_autolink.h>
+	"autolink.h"
+
+1268379094 /home/han/Documents/code_blocks/spam_msg2/json/config.h
+	<cpptl/config.h>
+
+1268379094 /home/han/Documents/code_blocks/spam_msg2/json/value.h
+	"forwards.h"
+	<string>
+	<vector>
+	<map>
+	<cpptl/smallmap.h>
+	<cpptl/forwards.h>
+
+1268379094 /home/han/Documents/code_blocks/spam_msg2/json/forwards.h
+	"config.h"
+
+1268379094 /home/han/Documents/code_blocks/spam_msg2/json/reader.h
+	"features.h"
+	"value.h"
+	<deque>
+	<stack>
+	<string>
+	<iostream>
+
+1268379094 /home/han/Documents/code_blocks/spam_msg2/json/features.h
+	"forwards.h"
+
+1268379094 /home/han/Documents/code_blocks/spam_msg2/json/writer.h
+	"value.h"
+	<vector>
+	<string>
+	<iostream>
+
+1399468722 /home/han/Documents/code_blocks/spam_msg2/DictionaryMan.h
+	"include.h"
+	"FeatureMan.h"
+
+1399058616 /home/han/Documents/code_blocks/spam_msg2/DataParser.h
+	"include.h"
+	"jieba/MixSegment.hpp"
+
+1398434108 /home/han/Documents/code_blocks/spam_msg2/jieba/MixSegment.hpp
+	<cassert>
+	"MPSegment.hpp"
+	"HMMSegment.hpp"
+	"Limonp/str_functs.hpp"
+
+1398434108 /home/han/Documents/code_blocks/spam_msg2/jieba/MPSegment.hpp
+	<algorithm>
+	<set>
+	<cassert>
+	"Limonp/logger.hpp"
+	"Trie.hpp"
+	"TrieManager.hpp"
+	"ISegment.hpp"
+	"SegmentBase.hpp"
+
+1398434110 /home/han/Documents/code_blocks/spam_msg2/jieba/Limonp/logger.hpp
+	<vector>
+	<iostream>
+	<fstream>
+	<string>
+	<stdio.h>
+	<stdarg.h>
+	<cassert>
+	"io_functs.hpp"
+	"str_functs.hpp"
+
+1398434110 /home/han/Documents/code_blocks/spam_msg2/jieba/Limonp/io_functs.hpp
+	<fstream>
+	<iostream>
+	<stdlib.h>
+
+1398434110 /home/han/Documents/code_blocks/spam_msg2/jieba/Limonp/str_functs.hpp
+	<fstream>
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<cctype>
+	<map>
+	<stdint.h>
+	<stdio.h>
+	<stdarg.h>
+	<memory.h>
+	<functional>
+	<locale>
+	<sstream>
+	<sys/types.h>
+	<iterator>
+	<algorithm>
+	"std_outbound.hpp"
+	"map_functs.hpp"
+
+1398434110 /home/han/Documents/code_blocks/spam_msg2/jieba/Limonp/std_outbound.hpp
+	"map_functs.hpp"
+	<map>
+	<set>
+
+1398434110 /home/han/Documents/code_blocks/spam_msg2/jieba/Limonp/map_functs.hpp
+	<map>
+	<set>
+	<iostream>
+	<sstream>
+	<unordered_map>
+
+1398434108 /home/han/Documents/code_blocks/spam_msg2/jieba/Trie.hpp
+	<iostream>
+	<fstream>
+	<map>
+	<cstring>
+	<stdint.h>
+	<cmath>
+	<limits>
+	"Limonp/str_functs.hpp"
+	"Limonp/logger.hpp"
+	"TransCode.hpp"
+
+1398434108 /home/han/Documents/code_blocks/spam_msg2/jieba/TransCode.hpp
+	"Limonp/str_functs.hpp"
+
+1398434108 /home/han/Documents/code_blocks/spam_msg2/jieba/TrieManager.hpp
+	"Trie.hpp"
+	"Limonp/md5.hpp"
+	"Limonp/logger.hpp"
+	<unordered_map>
+
+1398434110 /home/han/Documents/code_blocks/spam_msg2/jieba/Limonp/md5.hpp
+	<cstdio>
+	<cstring>
+	<iostream>
+
+1398434108 /home/han/Documents/code_blocks/spam_msg2/jieba/ISegment.hpp
+
+1398434108 /home/han/Documents/code_blocks/spam_msg2/jieba/SegmentBase.hpp
+	"TransCode.hpp"
+	"Limonp/logger.hpp"
+	"Limonp/InitOnOff.hpp"
+	"ISegment.hpp"
+	<cassert>
+
+1398434110 /home/han/Documents/code_blocks/spam_msg2/jieba/Limonp/InitOnOff.hpp
+
+1398434108 /home/han/Documents/code_blocks/spam_msg2/jieba/HMMSegment.hpp
+	<iostream>
+	<fstream>
+	<memory.h>
+	<cassert>
+	"Limonp/str_functs.hpp"
+	"Limonp/logger.hpp"
+	"TransCode.hpp"
+	"ISegment.hpp"
+	"SegmentBase.hpp"
+	"Trie.hpp"
+
+1398370558 /home/han/Documents/code_blocks/spam_msg2/Singleton.h
+	<stdlib.h>
+	<assert.h>
+	<stdexcept>
+
+1399473018 source:/home/han/Documents/code_blocks/spam_msg2/DataLearner.cpp
+	"DataLearner.h"
+	"AddressMan.h"
+	"DictionaryMan.h"
+	"Singleton.h"
+	"include.h"
+
+1399468852 /home/han/Documents/code_blocks/spam_msg2/DataLearner.h
+
+1399469700 source:/home/han/Documents/code_blocks/spam_msg2/DataParser.cpp
+	"DataParser.h"
+	"DictionaryMan.h"
+
+1399463124 source:/home/han/Documents/code_blocks/spam_msg2/DataPredictor.cpp
+	"DataPredictor.h"
+	"DataLearner.h"
+	"Singleton.h"
+	"include.h"
+
+1399130340 /home/han/Documents/code_blocks/spam_msg2/DataPredictor.h
+
+1399472496 source:/home/han/Documents/code_blocks/spam_msg2/DictionaryMan.cpp
+	"DictionaryMan.h"
+
+1399546654 source:/home/han/Documents/code_blocks/spam_msg2/main.cpp
+	"include.h"
+	"DictionaryMan.h"
+	"DataGenerator.h"
+	"DataLearner.h"
+	"Singleton.h"
+	"DataPredictor.h"
+	"jieba/MixSegment.hpp"
+
+1399572827 source:/home/han/Documents/code_blocks/spam_msg2/FeatureMan.cpp
+	"FeatureMan.h"
+	"FeatureMan.h"
+

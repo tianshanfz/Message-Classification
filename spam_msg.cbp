@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="spam_msg" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/spam_msg" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="/home/han/Desktop/machine_learning/url_spam/SVM/WordsSegment/WordsSegment/Release/libWordsSegment.so" />
+					<Add library="/home/han/jsoncpp-src-0.5.0/libs/linux-gcc-4.6/libjson_linux-gcc-4.6_libmt.so" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/spam_msg" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++0x" />
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add library="/home/han/jsoncpp-src-0.5.0/libs/linux-gcc-4.6/libjson_linux-gcc-4.6_libmt.so" />
+			<Add library="/home/han/Desktop/machine_learning/url_spam/SVM/WordsSegment/WordsSegment/Release/libWordsSegment.so" />
+		</Linker>
+		<Unit filename="AddressMan.cpp" />
+		<Unit filename="AddressMan.h" />
+		<Unit filename="DataGenerator.cpp" />
+		<Unit filename="DataGenerator.h" />
+		<Unit filename="DataLearner.cpp" />
+		<Unit filename="DataLearner.h" />
+		<Unit filename="DataParser.cpp" />
+		<Unit filename="DataParser.h" />
+		<Unit filename="DataPredictor.cpp" />
+		<Unit filename="DataPredictor.h" />
+		<Unit filename="DictionaryMan.cpp" />
+		<Unit filename="DictionaryMan.h" />
+		<Unit filename="FeatureMan.cpp" />
+		<Unit filename="FeatureMan.h" />
+		<Unit filename="Singleton.h" />
+		<Unit filename="include.h" />
+		<Unit filename="jieba/FullSegment.hpp" />
+		<Unit filename="jieba/HMMSegment.hpp" />
+		<Unit filename="jieba/Husky/HttpReqInfo.hpp" />
+		<Unit filename="jieba/Husky/HuskyServer.hpp" />
+		<Unit filename="jieba/Husky/ThreadManager.hpp" />
+		<Unit filename="jieba/ISegment.hpp" />
+		<Unit filename="jieba/KeywordExtractor.hpp" />
+		<Unit filename="jieba/Limonp/ArgvContext.hpp" />
+		<Unit filename="jieba/Limonp/Config.hpp" />
+		<Unit filename="jieba/Limonp/InitOnOff.hpp" />
+		<Unit filename="jieba/Limonp/MysqlClient.hpp" />
+		<Unit filename="jieba/Limonp/cast_functs.hpp" />
+		<Unit filename="jieba/Limonp/io_functs.hpp" />
+		<Unit filename="jieba/Limonp/logger.hpp" />
+		<Unit filename="jieba/Limonp/macro_def.hpp" />
+		<Unit filename="jieba/Limonp/map_functs.hpp" />
+		<Unit filename="jieba/Limonp/md5.hpp" />
+		<Unit filename="jieba/Limonp/std_outbound.hpp" />
+		<Unit filename="jieba/Limonp/str_functs.hpp" />
+		<Unit filename="jieba/MPSegment.hpp" />
+		<Unit filename="jieba/MixSegment.hpp" />
+		<Unit filename="jieba/QuerySegment.hpp" />
+		<Unit filename="jieba/SegmentBase.hpp" />
+		<Unit filename="jieba/TransCode.hpp" />
+		<Unit filename="jieba/Trie.hpp" />
+		<Unit filename="jieba/TrieManager.hpp" />
+		<Unit filename="json/autolink.h" />
+		<Unit filename="json/config.h" />
+		<Unit filename="json/features.h" />
+		<Unit filename="json/forwards.h" />
+		<Unit filename="json/json.h" />
+		<Unit filename="json/reader.h" />
+		<Unit filename="json/value.h" />
+		<Unit filename="json/writer.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

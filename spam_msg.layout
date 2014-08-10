@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="AddressMan.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="444" topLine="0" />
+	</File>
+	<File name="AddressMan.h" open="0" top="0" tabpos="6">
+		<Cursor position="131" topLine="0" />
+	</File>
+	<File name="DataGenerator.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="3930" topLine="131" />
+	</File>
+	<File name="DataGenerator.h" open="1" top="0" tabpos="5">
+		<Cursor position="482" topLine="7" />
+	</File>
+	<File name="DataLearner.cpp" open="1" top="0" tabpos="6">
+		<Cursor position="2462" topLine="0" />
+	</File>
+	<File name="DataLearner.h" open="0" top="0" tabpos="0">
+		<Cursor position="137" topLine="9" />
+	</File>
+	<File name="DataParser.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="868" topLine="13" />
+	</File>
+	<File name="DataParser.h" open="0" top="0" tabpos="0">
+		<Cursor position="342" topLine="0" />
+	</File>
+	<File name="DataPredictor.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="338" topLine="12" />
+	</File>
+	<File name="DataPredictor.h" open="0" top="0" tabpos="0">
+		<Cursor position="194" topLine="0" />
+	</File>
+	<File name="DictionaryMan.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="698" topLine="2" />
+	</File>
+	<File name="DictionaryMan.h" open="0" top="0" tabpos="4">
+		<Cursor position="214" topLine="0" />
+	</File>
+	<File name="FeatureMan.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="416" topLine="0" />
+	</File>
+	<File name="FeatureMan.h" open="1" top="0" tabpos="4">
+		<Cursor position="871" topLine="0" />
+	</File>
+	<File name="include.h" open="0" top="0" tabpos="5">
+		<Cursor position="219" topLine="0" />
+	</File>
+	<File name="jieba/Limonp/md5.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="3621" topLine="112" />
+	</File>
+	<File name="jieba/MixSegment.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="134" />
+	</File>
+	<File name="json/reader.h" open="0" top="0" tabpos="0">
+		<Cursor position="1447" topLine="35" />
+	</File>
+	<File name="main.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="1573" topLine="51" />
+	</File>
+</CodeBlocks_layout_file>
